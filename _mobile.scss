@@ -1,0 +1,53 @@
+@media (max-width:767px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .top{
+        background-image: url(img/back_mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 735px;
+
+        &__title{
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+            padding-top: 238px;
+            width: 343px;
+            margin-bottom: 32px;
+        }
+
+        &__text{
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            width: 343px;
+        }
+
+        &__button{
+
+            &-move{
+            margin-left: 54px;
+            margin-right: 54px;
+            margin-bottom: 238px;
+            margin-top: 32px;
+            }
+        }
+
+    }
+
+    .content{
+        
+        &__item{
+            margin-bottom: 0px;
+            margin-top: 0px;
+            width: 343px;
+            
+
+        }
+
+    }
+}
