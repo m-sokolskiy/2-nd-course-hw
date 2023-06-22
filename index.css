@@ -125,6 +125,72 @@ body {
   border-radius: 16px;
 }
 
+.seasons {
+  background-image: url(img/back_seasons.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.seasons__content {
+  width: 584px;
+  gap: 32px;
+}
+.seasons__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  width: 378px;
+}
+.seasons__text {
+  width: 480px;
+  margin-top: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  width: 584px;
+}
+.seasons__button {
+  width: 234.06px;
+  height: 48.6px;
+  background: #9C0332;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+.seasons__button-move {
+  margin-top: 44px;
+}
+.seasons__button:hover {
+  background: #EB443F;
+  border-radius: 30px;
+}
+.seasons__icon {
+  margin-top: 64px;
+}
+.seasons__icon_size {
+  width: 485px;
+  height: 333px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -161,5 +227,32 @@ body {
     margin-bottom: 0px;
     margin-top: 0px;
     width: 343px;
+  }
+  .seasons__content {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 342px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .seasons__title {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    width: 343px;
+    margin-bottom: 32px;
+  }
+  .seasons__text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 343px;
+  }
+  .seasons__icon_size {
+    width: 344px;
+    height: 236px;
   }
 }/*# sourceMappingURL=index.css.map */

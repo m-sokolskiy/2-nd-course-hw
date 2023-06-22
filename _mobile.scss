@@ -50,4 +50,41 @@
         }
 
     }
+
+    .seasons{
+        &__content{
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 342px; 
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__title{
+            font-size: 32px;
+            line-height: 39px;
+            text-align: center;
+            width: 343px;
+            margin-bottom: 32px;
+        }
+
+        &__text{
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            width: 343px;
+        }
+
+        &__icon{
+            
+            &_size{
+                width: 344px;
+                height: 236px;
+            }
+        }
+
+    }
 }
