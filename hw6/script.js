@@ -18,15 +18,12 @@
 // console.log(numbers);
 
 // // Задание 4
-// let numbers = [
-//     [1, 1, 1],
-//     [1, 1, 1],
-//     [1, 1, 1],
-// ];
+// let arr = [];
 
-// for (let number of numbers) {
-//     console.log(number);
+// for (let i = 0; i < 3; i++) {
+// 	arr[i] = [1, 1, 1];
 // }
+// console.log(arr);
 
 // // Задание 5
 // let numbers = [1, 1, 1];
@@ -43,23 +40,23 @@
 // console.log(numbers);
 
 // // Задание 7
-// let numbers = [9, 8, 7, 6, 5];
+// let arr = [9, 8, 7, 6, 5];
+// let answer = Number(prompt('Угадай число'));
 
-// let answer = prompt('Угадай число');
-// if (answer == numbers[0] || answer == numbers[1] || answer == numbers[2] || answer == numbers[3] || answer == numbers[4]) {
-//     alert('Угадал')
-// } else {
-//     alert('Не угадал')
+// for (let i = 0; i < arr.length; i++) {
+//     if (arr.includes(answer)) {
+//         alert('Угадал');
+//         break;
+//     } else {
+//         alert('Не угадал');
+//         break;
+//     }
 // }
 
 // // Задание 8
 // let line = 'abcdef';
-// let arrayLine = line.split('');
-// console.log(arrayLine);
-// arrayLine.reverse();
-// console.log(arrayLine);
-// arrayLine = arrayLine.join('');
-// console.log(arrayLine);
+// let arrayLine = line.split('').reverse().join('');
+// console.log(arrayLine)
 
 // // Задание 9
 // let numbers = [
@@ -86,11 +83,10 @@
 
 // // Задание 12
 // function lengthSrt(arr) {
-//     return arr.map(el => {
-//         console.log(el.length);
-//     });
+//     let result = arr.map(el => el.length) 
+//         console.log(result);
+//     ;
 // }
-
 // lengthSrt(['Один', '', 'Девять', 'Пять', 'Четыре'])
 
 // // Задание 13
@@ -100,7 +96,6 @@
 // }
 
 // filterPositive([-404, 202, 505, -101, -707]);
-
 
 
 
