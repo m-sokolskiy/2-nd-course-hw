@@ -19,9 +19,12 @@
 
 // // Задание 4
 // let arr = [];
+// for (let i = 0; i < 3; i++){
+//     arr[i] = [];
 
-// for (let i = 0; i < 3; i++) {
-// 	arr[i] = [1, 1, 1];
+//     for (let j = 0; j < 3; j++){
+//         arr[i][j] = 1;
+//     }
 // }
 // console.log(arr);
 
@@ -48,10 +51,10 @@
 //         alert('Угадал');
 //         break;
 //     } else {
-//         alert('Не угадал');
-//         break;
+//        alert('Не угадал');
 //     }
 // }
+
 
 // // Задание 8
 // let line = 'abcdef';
@@ -83,11 +86,10 @@
 
 // // Задание 12
 // function lengthSrt(arr) {
-//     let result = arr.map(el => el.length) 
-//         console.log(result);
-//     ;
+//     return arr.map(el => el.length);
 // }
-// lengthSrt(['Один', '', 'Девять', 'Пять', 'Четыре'])
+
+// console.log(lengthSrt(['Один', '', 'Девять', 'Пять', 'Четыре']));
 
 // // Задание 13
 // function filterPositive(arr) {
