@@ -191,6 +191,71 @@ body {
   height: 333px;
 }
 
+.words {
+  background-image: url(img/back_seasons.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.words__content {
+  width: 588px;
+  gap: 32px;
+}
+.words__title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  width: 588px;
+}
+.words__text {
+  width: 588px;
+  margin-top: 32px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.words__button {
+  width: 234.06px;
+  height: 48.6px;
+  background: #9C0332;
+  border-radius: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+}
+.words__button-move {
+  margin-top: 44px;
+}
+.words__button:hover {
+  background: #EB443F;
+  border-radius: 30px;
+}
+.words__icon {
+  margin-top: 64px;
+}
+.words__icon_size {
+  width: 482px;
+  height: 322px;
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -210,6 +275,8 @@ body {
     padding-top: 238px;
     width: 343px;
     margin-bottom: 32px;
+    margin-right: 0;
+    justify-content: center;
   }
   .top__text {
     font-size: 14px;
@@ -243,16 +310,58 @@ body {
     line-height: 39px;
     text-align: center;
     width: 343px;
-    margin-bottom: 32px;
+    justify-content: center;
   }
   .seasons__text {
     font-size: 14px;
     line-height: 22px;
     text-align: center;
     width: 343px;
+    margin-top: 0;
+  }
+  .seasons__icon {
+    margin: 0;
   }
   .seasons__icon_size {
     width: 344px;
     height: 236px;
+  }
+  .seasons__button-move {
+    margin-top: 0;
+  }
+  .words {
+    flex-direction: column-reverse;
+  }
+  .words__content {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 342px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .words__title {
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    width: 343px;
+    margin-top: 0;
+    justify-content: center;
+  }
+  .words__text {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    width: 343px;
+    margin-top: 0;
+  }
+  .words__icon_size {
+    width: 344px;
+    height: 236px;
+  }
+  .words__button-move {
+    margin-top: 0;
   }
 }/*# sourceMappingURL=index.css.map */
