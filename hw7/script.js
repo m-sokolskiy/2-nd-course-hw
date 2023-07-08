@@ -4,13 +4,17 @@
 
 // Задание 2
 // function data (arr, search) {
+//     const newArr = [];
 //     arr.forEach(el => {
-//         if (el .toLowerCase().startsWith(search.toLowerCase())) 
-//         console.log(Array.from(Array(el)));
+//         if (el .toLowerCase().startsWith(search.toLowerCase())) {
+//         newArr.push(el);
+//     }
 //     })
+//     return newArr;
 // }
 
 // let answer = data (['красноармеец', 'жирная красноперка', 'зайчик', 'краснадарский край'], 'КРАСН');
+// console.log('новый массив', answer);
 
 // Задание 3
 // console.log(Math.floor(32.58884));
@@ -65,3 +69,6 @@
 //     console.log(fullDate,fullTime );
 // }
 // data ();
+
+
+
