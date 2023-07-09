@@ -46,13 +46,10 @@
 // let arr = [9, 8, 7, 6, 5];
 // let answer = Number(prompt('Угадай число'));
 
-// for (let i = 0; i < arr.length; i++) {
-//     if (arr.includes(answer)) {
-//         alert('Угадал');
-//         break;
-//     } else {
-//        alert('Не угадал');
-//     }
+// if (arr.includes(answer)) {
+//     alert('Угадал');
+// } else {
+//    alert('Не угадал');
 // }
 
 // Задание 8
