@@ -6,48 +6,40 @@
 //     { name: 'Оксана', age: 47 }
 // ];
 
-// function age (callback) {
-//     callback();
-// }
- 
-// const ageSort = () => {
-//     console.log(people.sort(function(a, b) { 
-//     return a.age - b.age;
-// }))
-// }
-
-// age(ageSort)
+// console.log((people.sort((a, b) => a.age - b.age)));
 
 // Задание 2
-// function isPositive(el) {
+// function isPositive (el) {
 //     if (el > 0) {
-//         return el;
+//         return true;
 //     }
 // }
 
-// function isMale(feature) {
-//     if (feature.gender == 'male') {
-//         return feature;
-//     }
-    
+// function isMale(el) {
+//     if (el.gender == 'male') {
+//         return true;
+//     }   
 // }
-
+      
 // function filter(arr, ruleFunction) {
-//     for (let i = 0; i < arr.length; i++) {
-//         return arr.filter(ruleFunction);
-        
+//     let result = [];
+      
+//     for (let i = 0; i < arr.length; i++) {      
+//         if (ruleFunction(arr[i]) === true) {
+//             result.push(arr[i]);
+//         }
 //     }
+//     return result;
 // }
-
-// console.log(filter([3, -4, 1, 9], isPositive)); 
 
 // const people = [
-//    {name: 'Глеб', gender: 'male'},
-//    {name: 'Анна', gender: 'female'},
-//    {name: 'Олег', gender: 'male'},
-//    {name: 'Оксана', gender: 'female'}
+//     {name: 'Глеб', gender: 'male'},
+//     {name: 'Анна', gender: 'female'},
+//     {name: 'Олег', gender: 'male'},
+//     {name: 'Оксана', gender: 'female'}
 // ];
 
+// console.log(filter([3, -4, 1, 9], isPositive)); 
 // console.log(filter(people, isMale));
 
 // Задание 3
@@ -67,17 +59,8 @@
 // timer(30);
 
 // Задание 4
-// function showAd() {
-// 	console.log('Привет, Глеб!');
-// }
-
-// setTimeout(showAd, 1000);
 // function delayForSecond(callback) {
-//     setTimeout(() => {
-//     if(callback) {
-//         callback(); 
-//     }
-//     }, 1000)
+//     setTimeout(() => {callback()}, 1000)
 // }
 
 // delayForSecond(function () {
@@ -98,8 +81,4 @@
 //     console.log(`Привет, ${name}!`);
 // }
 
-// setTimeout(() => {
-//    sayHi('Глеб'); 
-// }, 2000);
-
-// delayForSecond();
+// delayForSecond(() => sayHi('Глеб'));
